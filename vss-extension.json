@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "ShortGitVersionHashExtractor",
     "name": "Short git version hash extractor",
-    "version": "0.0.2",
+    "version": "0.0.5",
     "publisher": "MikhaelRegni",
     "targets": [
         {
@@ -43,6 +43,12 @@
 		},
 		{
 			"path": "ShortGitVersionHashExtractor/task.json"
+		},
+		{
+			"path": "ShortGitVersionHashExtractor/icon.png"
+		},
+		{
+			"path": "ShortGitVersionHashExtractor/ps_modules/vststasksdk"
 		}
 	],
 	"links": {
