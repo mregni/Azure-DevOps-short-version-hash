@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "ShortGitVersionHashExtractor",
     "name": "Short git version hash extractor",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "MikhaelRegni",
     "targets": [
         {
