@@ -7,25 +7,17 @@
     "category": "Utility",
     "author": "Mikhaël Regni",
     "version": {
-        "Major": 0,
+        "Major": 1,
         "Minor": 0,
-        "Patch": 10
+        "Patch": 0
     },
     "instanceNameFormat": "Short git version hash extractor",
     "inputs": [ ],
     "execution": {
-        "PowerShell3": {
-			"target": "script.ps1"
-		}
+        "Node": {
+            "target": "main.js",
+            "argumentFormat": ""
+        }
     },
-	"inputs": [
-		{
-			"name": "GitPath",
-			"label": "Git repository path",
-			"type": "filePath",
-			"required": true,
-			"helpMarkDown": "The target git repo path",
-			"defaultValue": "$(System.DefaultWorkingDirectory)"
-		}
-  ]
+	"inputs": [ ]
 }

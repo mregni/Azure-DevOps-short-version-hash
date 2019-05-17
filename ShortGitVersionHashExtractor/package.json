@@ -1,0 +1,33 @@
+{
+  "name": "shortgitversionhashextractor",
+  "version": "1.0.0",
+  "description": "This task will extract the current short git version hash and create a variable ShortVersionHash with the value to use in other build steps.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mregni/Azure-DevOps-short-version-hash.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "version",
+    "short"
+  ],
+  "author": "Mikhaël Regni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mregni/Azure-DevOps-short-version-hash/issues"
+  },
+  "homepage": "https://github.com/mregni/Azure-DevOps-short-version-hash#readme",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.8.0",
+    "simple-git": "^1.113.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.2",
+    "@types/q": "^1.5.2"
+  }
+}
