@@ -9,24 +9,20 @@
     "version": {
         "Major": 0,
         "Minor": 0,
-        "Patch": 8
+        "Patch": 10
     },
     "instanceNameFormat": "Short git version hash extractor",
     "inputs": [ ],
     "execution": {
         "PowerShell3": {
-			"target": "script.ps1",
-			"platforms": [
-				"windows",
-				"linux"
-			]
+			"target": "script.ps1"
 		}
     },
 	"inputs": [
 		{
 			"name": "GitPath",
 			"label": "Git repository path",
-			"type": "string",
+			"type": "filePath",
 			"required": true,
 			"helpMarkDown": "The target git repo path",
 			"defaultValue": "$(System.DefaultWorkingDirectory)"
